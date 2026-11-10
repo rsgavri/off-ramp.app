@@ -1,4 +1,4 @@
-// Cookie Consent Banner for EX.FINANCIAL
+// Cookie Consent Banner for Global Payment Solutions
 // This script creates and manages a cookie consent banner
 
 (function () {

@@ -9,7 +9,7 @@
       if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       opener = link;
-      title.textContent = link.dataset.accessOpen === 'signin' ? 'Sign in or get personal help' : 'Get started with EX.financial';
+      title.textContent = link.dataset.accessOpen === 'signin' ? 'Sign in or get personal help' : 'Get started with Global Payment Solutions';
       dialog.showModal();
       document.documentElement.classList.add('ex-access-modal-open');
       title.focus();
