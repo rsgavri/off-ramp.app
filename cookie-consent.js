@@ -5,7 +5,7 @@
     'use strict';
 
     // Check if user has already consented
-    const COOKIE_CONSENT_KEY = 'ex_financial_cookie_consent';
+    const COOKIE_CONSENT_KEY = 'gps_cookie_consent';
     const COOKIE_CONSENT_EXPIRY = 365; // days
 
     function getCookie(name) {
