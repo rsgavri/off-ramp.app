@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://ex.financial/Terms">
+    <title>Terms of Use - EX.financial</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Terms of Use for EX.financial - Understand the rules and regulations governing the use of our services.">
+    <meta name="keywords" content="terms of use, legal, ex financial terms, crypto exchange rules, user agreement">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ex.financial/Terms">
+    <meta property="og:title" content="Terms of Use - EX.financial">
+    <meta property="og:description"
+        content="Terms of Use for EX.financial - Understand the rules and regulations governing the use of our services.">
+    <meta property="og:image" content="https://ex.financial/favicon.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://ex.financial/Terms">
+    <meta name="twitter:title" content="Terms of Use - EX.financial">
+    <meta name="twitter:description"
+        content="Terms of Use for EX.financial - Understand the rules and regulations governing the use of our services.">
+    <meta name="twitter:image" content="https://ex.financial/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #2563eb, #9333ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .bg-grid {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+    <!-- Dark Mode Script -->
+    <script>
+        const getThemePreference = () => {
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                return 'dark';
+            }
+            return 'light';
+        };
+        if (getThemePreference() === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+
+
+</head>
+
+<body
+    class="antialiased bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="fixed w-full z-50 top-0 bg-white/80 backdrop-blur-lg border-b border-gray-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-0.5">
+                <div
+                    class="w-8 h-8 bg-black text-white flex items-center justify-center font-heading font-bold text-xl rounded-lg">
+                    EX</div>
+                <span class="font-heading text-xl font-bold tracking-tight">.FINANCIAL</span>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+                <a href="#features" class="hover:text-black transition-colors">Features</a>
+                <a href="#solution" class="hover:text-black transition-colors">Solution</a>
+                <a href="#testimonials" class="hover:text-black transition-colors">Reviews</a>
+                <a href="/about_us.html" class="hover:text-black transition-colors">About</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                
+                <a href="/get_started/"
+                    class="px-5 py-2.5 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 transition-all shadow-lg shadow-gray-200">Get
+                    Started</a>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main
+        class="flex-grow relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        <div class="absolute inset-0 bg-grid opacity-40"></div>
+        <section class="py-20 relative z-10">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div
+                    class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12 border border-gray-200 dark:border-gray-700">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-8 text-center gradient-text">Terms of Use</h1>
+                    <div class="prose prose-lg dark:prose-invert max-w-none">
+                        <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                            These Terms of Use (the "Terms"), together with the <a href="/Privacy_Policy.html"
+                                class="text-blue-600 hover:text-blue-700 dark:text-blue-400">Privacy and Personal Data
+                                Protection Policy</a> and the <a href="/AML.html"
+                                class="text-blue-600 hover:text-blue-700 dark:text-blue-400">AML/CTF &amp; Sanctions
+                                Policy</a>, which are incorporated herein by reference, govern access to and use of the
+                            platform, website and related communication channels (the "Platform") operated by
+                            <strong>3-102-151245 SOCIEDAD DE RESPONSABILIDAD LIMITADA</strong> (operating under the brand
+                            <strong>EX.financial</strong> / <strong>3-102-151245 S.R.L.</strong>), a limited liability company organised under the laws of
+                            the Republic of Costa Rica, Cédula Jurídica 3-102-151245, with registered office at Provincia 01 San José, Cantón 15 Montes de Oca, San Pedro, 400 meters north and 50 meters east of Automercado Los Yoses, Edificio Ofident, Oficina 3, San José,
+                            Costa Rica, e-mail <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a> (the
+                            "Company", "we", "us").
+                        </p>
+                        <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                            By registering for, accessing or using the Platform, you (the "User", "you") confirm that
+                            you have read, understood and agree to be bound by these Terms. <strong>If you do not agree,
+                                you must not use the Platform.</strong>
+                        </p>
+
+                        
+                        <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                            <strong>Agreement by checkbox.</strong> On the website and in the EX.financial
+                            mobile application, ticking the box &quot;I agree to the Terms and acknowledge the
+                            Privacy Policy&quot; is acceptance of these Terms of Use, the Privacy and Personal
+                            Data Protection Policy and the AML/CTF &amp; Sanctions Policy. That tick is recorded
+                            for the account. It does not accept a Partner Provider's terms. Bridge, 1Money, Noah
+                            and Attrus each require their own acceptance before their service opens. A separate
+                            page of these Terms does not have to be opened for the Company's own agreement to count.
+                        </p>
+                        <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                            <strong>Updated 10 November 2026.</strong> This version replaces the Terms effective
+                            9 November 2026. Publication on the Platform is notice of the change. If you do not
+                            accept it, stop using the Platform. You may close your account.
+                        </p>
+
+<div class="space-y-8">
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">1. Nature of the
+                                    Service</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The Company operates a technology platform
+                                    that enables Users to exchange digital assets (crypto assets) for fiat currency and
+                                    vice versa, and to send and receive payments through supported payment rails,
+                                    including PIX (BRL), SEPA (EUR), ACH, Fedwire and
+                                    international wire (USD), and SPEI (MXN), subject to availability.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3"><strong>The Company is not a bank, is
+                                        not a deposit-taking institution, and is not an investment adviser, broker or
+                                        portfolio manager.</strong> The Company does not hold User funds as a deposit
+                                    and does not itself provide deposit insurance. A balance on the Platform, a
+                                    stablecoin, funds in transit and a balance in a foreign currency are not deposits
+                                    of the Company and are not covered by the FDIC (United States) or any national deposit insurance scheme.
+                                    A US dollar deposit that a Partner Provider places at its own US sponsor bank may
+                                    have pass-through FDIC coverage only while it remains a US dollar deposit at that
+                                    bank, and only within the FDIC limit and ownership category. That coverage does not
+                                    insure the Partner Provider, the Company, a stablecoin, or funds that have left the
+                                    bank.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">The Company is incorporated in the Republic of Costa Rica under the Costa Rican Commercial Code (Código de Comercio, Law No. 3284) to provide technology and virtual-asset exchange and wallet administration services. Where a
+                                    regulated fiat payment, settlement or banking service is used in a local corridor, it is performed by the
+                                    Partner Provider that provides it under that Partner Provider's regulatory licence. Anti-money-laundering, counter-terrorist-financing and sanctions compliance follow Costa Rican Law No. 7786 (as reformed by Law No. 8204 and subsequent amendments), FATF standards and applicable partner requirements. Nothing on the Platform is investment, tax or
+                                    legal advice, or a solicitation to buy or sell a financial instrument or security.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">2. Regulated Partner
+                                    Providers</h2>
+                                <p class="text-gray-600 dark:text-gray-300">Custody, currency conversion, payment
+                                    execution and identity verification for the relevant service are performed by
+                                    third-party providers (each a "Partner Provider"). The Company does not itself take
+                                    custody of User funds for those services. The current Partner Providers are:</p>
+                                <ul class="list-disc pl-6 mt-3 space-y-2 text-gray-600 dark:text-gray-300">
+                                    <li><strong>Bridge Ventures Inc. ("Bridge").</strong> The User accepts Bridge's user
+                                        terms. Bridge may refuse, suspend, return or close a User under those terms.</li>
+                                    <li><strong>1Money USA, Inc. ("1Money")</strong>, NMLS 2628653. Licenses:
+                                        <a href="https://www.1money.com/legal-and-privacy/licenses">https://www.1money.com/legal-and-privacy/licenses</a>.
+                                        The Company is not a money-services business and is not 1Money's agent. Before
+                                        an account is created the User must separately accept 1Money's account terms,
+                                        disclosures, privacy policy, cookie policy and E-SIGN consent. 1Money may delay
+                                        or refuse a transaction for fraud, sanctions or money-laundering checks.
+                                        Stablecoins can lose value. 1Money support: <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a> and
+                                        1-866-963-4008. Complaints: <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a>.</li>
+                                    <li><strong>Noah US, Inc. ("Noah")</strong> is the program manager for Noah USD bank
+                                        services. <strong>Lead Bank</strong>, a Missouri-chartered bank, provides the
+                                        bank services and does not buy or sell digital assets. The User accepts Noah's
+                                        terms and the Lead Bank fund-transfer agreement. The User must help with a
+                                        return or reversal, keep enough funds for payments, returns and fees, and has
+                                        no right to cancel a payment after initiating it. A name that does not match
+                                        the account number does not by itself create a refund. Documents requested for
+                                        a deposit under review must be provided within 10 days, or the deposit is
+                                        refunded to the sending method.</li>
+                                    <li><strong>Attrus.</strong> In the United States, money transmission and foreign
+                                        exchange are performed by FacilitaPay North America LLC, a registered
+                                        money-services business, FinCEN MSB number 31000317304860. A US dollar deposit
+                                        account is held at Attrus's US sponsor bank. Attrus is not that bank. The PIX
+                                        or other local payment must come from the customer who was registered and
+                                        approved.</li>
+                                </ul>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">To use the relevant services, the User
+                                    must separately accept the applicable Partner Provider's own terms of service and
+                                    complete that provider's identity verification. Those terms apply directly between
+                                    the User and the Partner Provider, in addition to these Terms. A Partner Provider
+                                    may, acting under its own regulatory obligations and independently of the Company,
+                                    request additional information or documents, delay, decline, freeze, reverse or
+                                    return a transaction, or decline or terminate a customer relationship. The Company
+                                    does not control and is not able to override such decisions.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">The User consents to the Company
+                                    transmitting the User's registration, identity, transaction and device data to
+                                    Partner Providers and to competent authorities where required, strictly as
+                                    described in the Privacy Policy.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">3. Eligibility</h2>
+                                <p class="text-gray-600 dark:text-gray-300">To use the Platform the User must: (a) be at
+                                    least <strong>18 years old</strong> and have full legal capacity; (b) act on their
+                                    own behalf and not as an undisclosed intermediary for a third party; (c) not be a
+                                    resident of, or located in, a jurisdiction in which the services are not offered;
+                                    and (d) not be a person or entity subject to economic or trade sanctions, or listed
+                                    on any applicable restricted-party list.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">Corporate Users must additionally
+                                    provide constitutional documents and disclose their ultimate beneficial owners
+                                    (UBOs) and controlling persons.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">4. Identity
+                                    Verification (KYC/KYB) and Source of Funds</h2>
+                                <p class="text-gray-600 dark:text-gray-300">Identity verification is mandatory. The User
+                                    must provide accurate, complete and current information and supporting documents,
+                                    and must keep them up to date. The Company and its Partner Providers may at any
+                                    time, including after a transaction has been initiated or completed, request
+                                    additional information, including <strong>proof of address, source of funds and
+                                        source of wealth</strong>, and may carry out sanctions, politically-exposed-person
+                                    and adverse-media screening.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">The User must answer the Company or the
+                                    Partner Provider that sends the request, within the time stated in it. For a Noah
+                                    deposit under review, that time is 10 days, after which Noah refunds the deposit to
+                                    the sending method. Providing false, misleading, altered or third-party information,
+                                    or failing to answer, may result in refusal of the transaction, a refund to the
+                                    sending method where the payment has not settled, and suspension or closure of the
+                                    account.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">5. Account Security
+                                    and Prohibited Access Methods</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The User is solely responsible for
+                                    safeguarding their access credentials, e-mail account, one-time codes and devices,
+                                    and for all activity carried out through their account. The User must notify the
+                                    Company immediately at <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a>
+                                    of any unauthorised access.</p>
+                                <div
+                                    class="mt-4 p-5 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-800">
+                                    <p class="text-gray-800 dark:text-gray-200"><strong>A VPN, proxy, Tor exit or
+                                            hosting connection is allowed.</strong> The User may access the Platform
+                                        with or without a VPN, proxy, Tor exit, remote desktop, or a hosting,
+                                        datacenter or VPS connection. That connection is not a breach of these Terms
+                                        and is not grounds to refuse access or close the account.</p>
+                                    <p class="text-gray-800 dark:text-gray-200 mt-3"><strong>An antidetect or spoofed
+                                            browser is allowed.</strong> The User may access the Platform from an
+                                        antidetect browser, a spoofed User-Agent, a changed browser fingerprint, an
+                                        emulator, or a virtual machine. That is not a breach of these Terms and is not
+                                        grounds to refuse access or close the account.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">6. Acceptable Use and
+                                    Prohibited Activities</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The User agrees to use the Platform in
+                                    compliance with all applicable laws. The following are prohibited:</p>
+                                <ul class="list-disc pl-6 mt-3 space-y-2 text-gray-600 dark:text-gray-300">
+                                    <li>money laundering, terrorist or proliferation financing, tax evasion, fraud or
+                                        any other financial crime;</li>
+                                    <li>funding an account with, or transferring funds to, an account that does not
+                                        belong to the verified User (third-party funding), unless expressly authorised
+                                        in writing;</li>
+                                    <li><strong>funding an account from PayPal</strong>, or from any account, balance
+                                        or wallet held with PayPal, whether directly or indirectly &mdash; including a
+                                        bank account that is linked to, or has been funded from, a PayPal account.
+                                        <strong>The Company does not accept payments originating from PayPal;</strong></li>
+                                    <li>transactions connected to sanctioned persons, entities or territories;</li>
+                                    <li>transactions connected to unlawful goods or services, including narcotics,
+                                        weapons, child sexual abuse material, human trafficking or ransomware;</li>
+                                    <li>unlicensed money transmission, payment processing for third parties, or
+                                        operating an unregistered exchange using the Platform;</li>
+                                    <li>circumventing, disabling or interfering with security, verification, monitoring
+                                        or rate-limiting measures, including as set out in clause 5;</li>
+                                    <li>creating multiple or duplicate accounts, using another person's identity or
+                                        documents, or registering, buying, selling, transferring or operating a straw,
+                                        nominee ("drop") or third-party account;</li>
+                                    <li>A VPN, proxy, Tor exit, hosting connection, antidetect browser, or
+                                        spoofed User-Agent is allowed, as set out in clause 5;</li>
+                                    <li>gambling, betting, prediction markets, adult-content services, multi-level
+                                        marketing, mixing or tumbling of crypto assets, cheque cashing, bail bonds,
+                                        debt collection, or counterfeit goods;</li>
+                                    <li>offering credit, investment, money transmission or exchange services to other
+                                        people through the Platform;</li>
+                                    <li>a business, country or activity that a Partner Provider restricts. A Partner
+                                        Provider may add a restriction, including for weapons, precious metals, luxury
+                                        goods or a country, without the Company's consent. The Company will follow that
+                                        refusal. A one-time personal sale is not by itself such a business, and the
+                                        Partner Provider may still decline it;</li>
+                                    <li>automated scraping, penetration testing without written authorisation, or any
+                                        attempt to disrupt the Platform.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">7. Fees and Exchange
+                                    Rates</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The Company charges a service fee, which is
+                                    disclosed to the User before the transaction is confirmed. Fees may differ between
+                                    Users, payment methods, corridors and account types, and may be amended
+                                    prospectively. Network fees, Partner Provider fees, and fees charged by the User's
+                                    own bank or by intermediary banks may apply in addition and are outside the
+                                    Company's control.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3" id="wire-fee-v1"><strong>Optional incoming USD wire tariff (wire-20-plus-1-v1).</strong>
+                                    After the tariff is made available and separately accepted with email-code confirmation in the app,
+                                    new USD wire deposits are subject to USD 20 plus 1% of the USD amount actually received by the payment provider.
+                                    A percentage already collected by Bridge is not collected twice. For eligible settlements to the User's
+                                    EX.financial Privy wallet in USDC on Base, the User authorizes a separate debit of 20 USDC per deposit
+                                    to the Company's designated fee wallet. The Company covers gas for that fee debit.
+                                    Only deposits first received after both activation and acceptance qualify; earlier or already pending
+                                    deposits, ACH, FedNow and external-wallet settlements are excluded. There is no partial debit or
+                                    fallback debit from another asset or network. Insufficient balance or uncertain execution requires review.
+                                    The User may revoke authorization for future deposits in the app. This clause does not by itself
+                                    enroll a User, change an individually agreed rate, or authorize a debit for a historical transaction.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">Exchange rates are indicative until the
+                                    transaction is executed. The rate applied is the rate at the moment of execution.
+                                    A Partner Provider's own fee may differ from the Company's displayed fee and from
+                                    the fee on the Partner Provider's public price list. A dispute about the Company's
+                                    fee is with the Company. A dispute about the Partner Provider's own fee follows that
+                                    provider's terms. Network, bank, return and blockchain-gas fees, and taxes, are not
+                                    part of the displayed fee. Taxes can include local taxes on a foreign-exchange or
+                                    virtual-asset operation in the User's jurisdiction. The User is responsible for the User's own taxes.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">8. Transactions,
+                                    Reversals and Returns</h2>
+                                <p class="text-gray-600 dark:text-gray-300">Blockchain transactions are irreversible
+                                    once confirmed. The User is solely responsible for the accuracy of destination
+                                    wallet addresses, networks, bank details and payment references. The Company cannot
+                                    recover assets sent to an incorrect or incompatible address or network.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">A transaction that a Partner Provider has
+                                    settled, including a confirmed on-chain payout, is final on the Company's side. The
+                                    User cannot cancel it after confirmation.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">If the User's own bank later requests a
+                                    return or recall, including where the User was both the sender and the account
+                                    holder, the User must either obtain written cancellation of that request from the
+                                    sending bank or return the amount to the Partner Provider that holds the payment.
+                                    The User does not return that principal to the Company. The account stays paused
+                                    until one of those two things happens. The Partner Provider may deduct the related
+                                    stablecoin, later incoming funds and any other balance it holds for the User, and
+                                    may charge its collection costs. A bank return may come back smaller because of
+                                    return fees, correspondent fees and a new exchange rate.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">Where a payment has not yet settled, a
+                                    rejection or a compliance refund is sent back to the original payment method, less
+                                    network and third-party costs already incurred. Processing times are estimates and
+                                    are not guaranteed.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3"><strong>Payments originating from
+                                        PayPal are not accepted.</strong> Where the Company or a Partner Provider
+                                    identifies a deposit as having been funded from a PayPal account, the deposit will
+                                    be rejected and returned to the originating account, less any network or
+                                    third-party costs already incurred, and the User's account may be suspended under
+                                    clause 13. This restriction applies regardless of whether the funds reach the
+                                    Company through an intermediate bank account.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">9. Sanctions and
+                                    Restricted Jurisdictions</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The Company and its Partner Providers apply
+                                    sanctions programmes including those administered by the <strong>United States
+                                        Office of Foreign Assets Control (OFAC)</strong>, the United Nations Security
+                                    Council, the European Union and His Majesty's Treasury (United Kingdom), and comply
+                                    with applicable Costa Rican and international requirements on the implementation of UN sanctions.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3"><strong>Comprehensively Sanctioned
+                                        Territories:</strong> Services are strictly prohibited and are not offered to
+                                    persons or entities located in, resident in, incorporated in, or acting on behalf
+                                    of persons or entities in the following sanctioned countries and territories:</p>
+                                <ul class="list-disc pl-6 mt-2 space-y-1 text-gray-600 dark:text-gray-300">
+                                    <li><strong>Cuba (CU)</strong>;</li>
+                                    <li><strong>Iran (IR)</strong>;</li>
+                                    <li><strong>North Korea / Democratic People's Republic of Korea (KP)</strong>;</li>
+                                    <li><strong>Syria (SY)</strong>;</li>
+                                    <li><strong>Venezuela (VE)</strong>;</li>
+                                    <li><strong>Myanmar / Burma (MM)</strong>; and</li>
+                                    <li><strong>The Crimea, Sevastopol, Donetsk (DNR), and Luhansk (LNR) regions</strong>.</li>
+                                </ul>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3"><strong>Restricted Onboarding
+                                        Jurisdictions:</strong> Under the Company's anti-fraud, compliance and
+                                    risk-management policy against synthetic, straw/nominee ("drop") and traded
+                                    accounts, account registration, identity verification (KYC/KYB) and platform
+                                    onboarding are not offered to persons or entities located in, resident in, or
+                                    submitting identity documents issued by the following jurisdictions:</p>
+                                <ul class="list-disc pl-6 mt-2 space-y-1 text-gray-600 dark:text-gray-300">
+                                    <li><strong>Africa:</strong> Angola (AO), Cameroon (CM), Egypt (EG), Kenya (KE),
+                                        Morocco (MA), Nigeria (NG), South Africa (ZA);</li>
+                                    <li><strong>Asia-Pacific:</strong> India (IN), Indonesia (ID), Malaysia (MY),
+                                        Pakistan (PK), Philippines (PH), Sri Lanka (LK);</li>
+                                    <li><strong>Latin America:</strong> Colombia (CO), Ecuador (EC).</li>
+                                </ul>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">Using a VPN, proxy or foreign IP
+                                    connection (as permitted under clause 5) does not waive residency, nationality or
+                                    document-issuance restrictions. Any account registered or verified using identity
+                                    documents or residency from a sanctioned territory or a restricted onboarding
+                                    jurisdiction, or identified as a straw, nominee ("drop") or purchased account,
+                                    will be refused or closed. The Company may block or reject any transaction and
+                                    freeze an account where required by law or by a Partner Provider, and may be
+                                    legally prohibited from disclosing the reason.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">10. Risks</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The User acknowledges that crypto assets and
+                                    blockchain-based networks and protocols involve significant risks, including price
+                                    volatility, liquidity risk, protocol failure, network congestion, forks, and the
+                                    irreversibility of on-chain transfers. Market prices may vary at any time and the
+                                    Company assumes no obligation in respect of market price. The Company does not offer
+                                    and does not intend to offer an investment opportunity of any nature, and nothing on
+                                    the Platform should be interpreted as such. The User should not transact with funds
+                                    they cannot afford to lose.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">11. Availability</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The Company will use reasonable efforts to
+                                    keep the Platform available, but does not guarantee uninterrupted or error-free
+                                    operation. Access may be suspended for maintenance, security, or where required by a
+                                    Partner Provider, a regulator or applicable law.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">12. Data Protection
+                                </h2>
+                                <p class="text-gray-600 dark:text-gray-300">Personal data is processed in accordance
+                                    with Costa Rican Law No. 8968 (Law on the Protection of the Person Regarding the Processing of Personal Data) and,
+                                    where applicable, the EU/UK General Data Protection Regulation, as described in the
+                                    <a href="/Privacy_Policy.html"
+                                        class="text-blue-600 hover:text-blue-700 dark:text-blue-400">Privacy Policy</a>.
+                                    Identity and transaction records are retained for the periods required by
+                                    anti-money-laundering legislation, which may extend beyond the closure of the
+                                    account.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">13. Suspension and
+                                    Termination</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The Company may suspend or terminate an
+                                    account, with or without prior notice where notice is not legally permitted, if the
+                                    User breaches these Terms, fails verification, is suspected of unlawful activity,
+                                    presents a risk to the security or integrity of the Platform, or where required by a
+                                    Partner Provider, a regulator or applicable law. A VPN, proxy, Tor exit,
+                                    hosting connection, antidetect browser, or spoofed User-Agent is not grounds to
+                                    close the account.
+                                    The User may close their account at any time, subject to the completion of pending
+                                    transactions and to statutory record retention. A bank recall, a Partner Provider
+                                    freeze, or silence after a request to return funds pauses the account. Opening
+                                    another account to avoid that pause is a breach of these Terms.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">14. Limitation of
+                                    Liability</h2>
+                                <p class="text-gray-600 dark:text-gray-300">To the maximum extent permitted by
+                                    applicable law, the Company shall not be liable for indirect, incidental, special or
+                                    consequential damages, loss of profit, or losses arising from market price
+                                    movements, from acts or omissions of a Partner Provider, bank or blockchain network,
+                                    from the User's own error (including incorrect addresses or details), from
+                                    unauthorised access resulting from the User's failure to safeguard their
+                                    credentials, from a recall or return of the User's own payment, from the User's
+                                    failure to cancel that recall, or from a set-off made by a Partner Provider.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3"><strong>Nothing in these Terms excludes
+                                        or limits liability for fraud, wilful misconduct, or any liability that cannot
+                                        lawfully be excluded, including mandatory consumer rights under applicable law (including Costa Rican Law No. 7472 where applicable).</strong></p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">15. Indemnification
+                                </h2>
+                                <p class="text-gray-600 dark:text-gray-300">The User agrees to indemnify and hold the
+                                    Company harmless against claims, losses, fines and reasonable costs arising from the
+                                    User's breach of these Terms, violation of applicable law, provision of inaccurate
+                                    information, or a claim by a Partner Provider or its bank that arises from the
+                                    User's recall, false information or prohibited use.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">16. Changes to These
+                                    Terms</h2>
+                                <p class="text-gray-600 dark:text-gray-300">The Company may amend these Terms. Material
+                                    changes will be notified by e-mail or through the Platform before they take effect.
+                                    Continued use of the services after the effective date constitutes acceptance. If
+                                    the User does not accept the amended Terms, the User must stop using the Platform
+                                    and may close their account.</p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">17. Governing Law and
+                                    Disputes</h2>
+                                <p class="text-gray-600 dark:text-gray-300">Where mandatory consumer protection law grants a right of withdrawal for a distance contract, cancellation does not reverse a confirmed blockchain transfer, a payment a
+                                    Partner Provider has already settled, or a bank transfer the receiving institution
+                                    has already accepted. Those cases follow clause 8. Any amount still held and
+                                    lawfully returnable is returned less costs already incurred. The relationship
+                                    between the User and a Partner Provider is also governed by that provider's own
+                                    terms, including any dispute process in those terms. Those terms do not replace the
+                                    User's mandatory rights against the Company.</p>
+                                <p class="text-gray-600 dark:text-gray-300 mt-3">These Terms are governed by the laws of the
+                                    Republic of Costa Rica. Disputes shall be submitted to the competent courts of
+                                    San José, Republic of Costa Rica, <strong>save that a User qualifying as a consumer may
+                                        bring proceedings in the courts of their own domicile where mandatory law so requires</strong>, and save for any
+                                    mandatory jurisdiction or consumer protection available to the User under the law of
+                                    their country of residence.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="mt-12 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-100 dark:border-blue-800">
+                            <p class="text-lg text-gray-800 dark:text-gray-200 font-medium text-center">
+                                By ticking that agreement box, or by otherwise using the Company's services, the User declares that they have read, understood and
+                                agreed to these Terms of Use, the Privacy Policy and the AML/CTF &amp; Sanctions Policy.
+                            </p>
+                        </div>
+                        <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700 text-center">
+                            <h3 class="text-xl font-bold mb-2 text-gray-900 dark:text-white">Effective Date</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">9 November 2026.</p>
+                            <p class="text-gray-600 dark:text-gray-300">For any questions or clarifications, contact us
+                                at
+                                <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-5 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center gap-0.5 mb-6">
+                        <div
+                            class="w-8 h-8 bg-black text-white flex items-center justify-center font-heading font-bold text-xl rounded-lg">
+                            EX</div>
+                        <span class="font-heading text-xl font-bold tracking-tight">.FINANCIAL</span>
+                        <span class="text-gray-400 text-sm ml-2">Cédula Jurídica: 3-102-151245 · San José, Costa Rica</span>
+                    </div>
+                    <p class="text-gray-500 max-w-sm mb-6">
+                        Your trusted partner for digital financial services worldwide.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://t.me/ex_financial_bot" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-gray-400">
+                            <i data-lucide="send" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ex.financial/" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-pink-600 hover:text-white transition-all text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5a4.25 4.25 0 0 0-4.25-4.25h-8.5Zm9.13 1.75a1.12 1.12 0 1 1 0 2.24 1.12 1.12 0 0 1 0-2.24ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"/></svg>
+                        </a>
+                        <a href="https://x.com/ex_financialbr" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-blue-400 hover:text-white transition-all text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-6.42L6.43 22H3.3l7.24-8.27L.8 2h6.4l4.42 5.84L18.9 2Zm-1.1 18h1.74L6.26 3.9H4.4L17.8 20Z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-6">Product Guide</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="/ach-to-crypto.html" class="hover:text-black transition">Crypto ↔ USD (ACH)</a></li>
+                        <li><a href="/crypto-to-sepa.html" class="hover:text-black transition">Crypto ↔ EUR (SEPA)</a></li>
+                        <li><a href="/crypto-to-spei.html" class="hover:text-black transition">Crypto ↔ MXN (SPEI)</a></li>
+                        <li><a href="/crypto-to-pix.html" class="hover:text-black transition">Crypto ↔ BRL (PIX)</a></li>
+                        <li><a href="/crypto-to-wire.html" class="hover:text-black transition">International Wire (SWIFT)</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-6">Company</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="/about_us.html" class="hover:text-black transition">About Us</a></li>
+                        <li><a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a></li>
+                        <li><a href="/blog" class="hover:text-black transition">Blog</a></li>
+                        <li><a href="/press" class="hover:text-black transition">Press</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-6">Legal</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="/Privacy_Policy.html" class="hover:text-black transition">Privacy Policy</a></li>
+                        <li><a href="/Terms" class="hover:text-black transition">Terms of Service</a></li>
+                        <li><a href="/cookie-policy" class="hover:text-black transition">Cookie Policy</a></li>
+                        <li><a href="/AML.html" class="hover:text-black transition">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-100 pt-8 text-sm text-center text-gray-400">
+                <p>&copy; 2026 EX.FINANCIAL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        lucide.createIcons();
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        function toggleTheme() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+            lucide.createIcons();
+        }
+        if (themeToggleBtn) {
+            themeToggleBtn.addEventListener('click', toggleTheme);
+        }
+    </script>
+    <script src="/cookie-consent.js?v=20261031csp"></script>
+
+    <!-- Floating Home Button -->
+    <a href="/"
+        class="fixed left-0 top-1/2 transform -translate-y-1/2 z-50 bg-black text-white py-4 px-2 rounded-r-xl shadow-2xl hover:bg-gray-800 transition-all flex flex-col items-center gap-3 border-r border-t border-b border-gray-800 group">
+        <i data-lucide="home" class="w-5 h-5 group-hover:scale-110 transition-transform"></i>
+        <span class="text-xs font-bold tracking-widest"
+            style="writing-mode: vertical-rl; text-orientation: mixed;">HOME</span>
+    </a>
+</body>
+
+</html>

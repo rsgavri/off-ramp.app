@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://ex.financial/">
+
+<title>EX Financial — Crypto & Fiat Payments via PIX, SEPA and ACH</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Connect crypto and fiat payments through PIX, SEPA, ACH, SPEI and international wire transfers with EX Financial.">
+    <meta name="keywords"
+        content="crypto payments, money transfer, PIX, SEPA, ACH, global payments, ex financial, send money">
+    <meta name="author" content="3-102-151245 S.R.L. (EX.FINANCIAL)">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ex.financial/">
+    <meta property="og:title" content="EX Financial — Crypto & Fiat Payments">
+    <meta property="og:description"
+        content="Connect crypto and fiat through PIX, SEPA, ACH, SPEI and international wire transfers.">
+    <meta property="og:image" content="https://ex.financial/favicon.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://ex.financial/">
+    <meta name="twitter:title" content="EX Financial — Crypto & Fiat Payments">
+    <meta name="twitter:description"
+        content="Connect crypto and fiat through PIX, SEPA, ACH, SPEI and international wire transfers.">
+    <meta name="twitter:image" content="https://ex.financial/favicon.png">
+
+
+<!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FinancialService",
+      "name": "EX.FINANCIAL",
+      "alternateName": "EX.financial",
+      "url": "https://ex.financial/",
+      "logo": "https://ex.financial/favicon.png",
+      "description": "Crypto and fiat payment services through PIX, SEPA, ACH, SPEI and international wire transfers.",
+      "sameAs": [
+        "https://x.com/ex_financialbr",
+        "https://instagram.com/exfinancial",
+        "https://t.me/ex_financial_bot"
+      ],
+      "currenciesAccepted": "USD, EUR, BRL, MXN, USDC",
+      "paymentAccepted": "Cryptocurrency"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "EX Financial",
+      "alternateName": "EX.financial",
+      "url": "https://ex.financial/"
+    }
+    </script>
+    <link rel="stylesheet" href="/assets/css/homepage-tailwind.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #111111;
+        }
+
+        .iso-card {
+            transform: perspective(1000px) rotateX(2deg) rotateY(-2deg);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .iso-card:hover {
+            transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(-5px);
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            opacity: 0.6;
+            z-index: 0;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #2563eb, #9333ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 20s linear infinite;
+        }
+    </style>
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
+    <link rel="stylesheet" href="/home-access-v1.css">
+    <script src="/home-access-v1.js" defer></script>
+</head>
+
+<body class="font-sans antialiased bg-white selection:bg-black selection:text-white">
+
+    <!-- Live Ticker -->
+    <div class="bg-black text-white text-xs font-medium py-2 overflow-hidden border-b border-gray-800 relative z-[60]">
+        <div class="flex whitespace-nowrap animate-marquee w-[200%]">
+            <span class="mx-6">BTC/USD <span class="text-green-400 font-bold">+2.4%</span></span>
+            <span class="mx-6">ETH/USD <span class="text-green-400 font-bold">+1.8%</span></span>
+            <span class="mx-6">SOL/USD <span class="text-green-400 font-bold">+5.2%</span></span>
+            <span class="mx-6">AAVE/USD <span class="text-red-400 font-bold">-0.5%</span></span>
+            <span class="mx-6">USDT/USD <span class="text-gray-400 font-bold">0.0%</span></span>
+            <span class="mx-6">EUR/USD <span class="text-green-400 font-bold">+0.1%</span></span>
+            <span class="mx-6">BRL/USD <span class="text-green-400 font-bold">+0.3%</span></span>
+            <!-- Duplicate for loop -->
+            <span class="mx-6">BTC/USD <span class="text-green-400 font-bold">+2.4%</span></span>
+            <span class="mx-6">ETH/USD <span class="text-green-400 font-bold">+1.8%</span></span>
+            <span class="mx-6">SOL/USD <span class="text-green-400 font-bold">+5.2%</span></span>
+            <span class="mx-6">AAVE/USD <span class="text-red-400 font-bold">-0.5%</span></span>
+            <span class="mx-6">USDT/USD <span class="text-gray-400 font-bold">0.0%</span></span>
+            <span class="mx-6">EUR/USD <span class="text-green-400 font-bold">+0.1%</span></span>
+            <span class="mx-6">BRL/USD <span class="text-green-400 font-bold">+0.3%</span></span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav
+        class="sticky top-0 w-full z-50 bg-white/90 backdrop-blur-lg border-b border-gray-100 transition-all duration-300">
+        <div class="ex-access-header container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div
+                    class="w-9 h-9 bg-black text-white flex items-center justify-center font-heading font-bold text-xl rounded-lg shadow-lg shadow-black/20">
+                    E
+                </div>
+                <span class="font-heading text-xl font-bold tracking-tight">EX.FINANCIAL</span>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+                <a href="#products" class="hover:text-black transition-colors">Products</a>
+                <a href="#features" class="hover:text-black transition-colors">Features</a>
+                <a href="#testimonials" class="hover:text-black transition-colors">Reviews</a>
+                <a href="/agentic-payments" class="hover:text-black transition-colors">For AI Agents</a>
+                <a href="/swift-codes/" class="hover:text-black transition-colors">SWIFT Codes</a>
+                <a href="/about_us.html" class="hover:text-black transition-colors">About</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                
+                
+                <a href="/get_started/" data-access-open="signin" aria-haspopup="dialog" aria-controls="ex-access-dialog" class="ex-access-signin">Sign In</a>
+                <a href="/get_started/" data-access-open="register" aria-haspopup="dialog" aria-controls="ex-access-dialog"
+                    class="px-5 py-2.5 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 transition-all shadow-lg shadow-gray-200">Get
+                    Started</a>
+            </div>
+        </div>
+    </nav>
+
+<!-- Download Apps -->
+    <section id="download-app" class="py-10 bg-gray-50 border-y border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black text-white text-xs font-bold mb-6">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                    </span>
+                    Now available on mobile
+                </div>
+                <h2 class="font-heading text-3xl md:text-4xl font-bold tracking-tight text-gray-900 mb-4">
+                    Take EX.financial with you
+                </h2>
+                <p class="text-lg text-gray-500 mb-8 max-w-xl mx-auto font-light">
+                    Your accounts, payments and activity in one place. Explore USD, EUR, GBP, BRL and MXN corridors in the EX.financial app.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/api/ios_app_download.php" target="_blank" rel="noopener"
+                        class="group px-8 py-4 bg-white text-black border border-gray-200 font-bold rounded-xl hover:bg-gray-50 transition-all shadow-sm flex items-center justify-center gap-3">
+                        <svg viewBox="0 0 384 512" fill="currentColor" class="w-6 h-6" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C71.4 141.1 16 184.6 16 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                        <span class="flex flex-col items-start leading-tight">
+                            <span class="text-[10px] font-medium text-gray-400 uppercase tracking-wide">Download on the</span>
+                            <span class="text-base">App Store</span>
+                        </span>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=ai.ibro.exfinancial"
+                        class="group px-8 py-4 bg-black text-white font-bold rounded-xl hover:bg-gray-800 transition-all shadow-xl shadow-gray-900/10 flex items-center justify-center gap-3">
+                        <svg viewBox="0 0 576 512" fill="currentColor" class="w-6 h-6" aria-hidden="true"><path d="M420.6 301.9a24 24 0 1 1 24-24 24 24 0 0 1-24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1-24 24m273.7-144.5 47.9-83a10 10 0 1 0-17.3-10l-48.5 84.1a301.3 301.3 0 0 0-246.6 0L116.2 64.5a10 10 0 1 0-17.3 10l47.9 83C64.5 202.2 8.2 285.6 0 384h576c-8.2-98.4-64.5-181.8-146.8-226.6"/></svg>
+                        <span class="flex flex-col items-start leading-tight">
+                            <span class="text-[10px] font-medium text-gray-300 uppercase tracking-wide">Download for</span>
+                            <span class="text-base">Google Play</span>
+                        </span>
+                    </a>
+                </div>
+                <p class="text-xs text-gray-400 mt-6">Android via Google Play &middot; iOS via the App Store</p>
+            </div>
+            <figure style="max-width:1440px;margin:36px auto 0">
+                <a href="/assets/images/exfinancial-app-showcase-20260912.png" target="_blank" rel="noopener" aria-label="Open a larger preview of the EX.financial app">
+                    <img src="/assets/images/exfinancial-app-showcase-20260912.png" width="2043" height="770" alt="EX.financial app interface preview: sign-in, currency accounts, Pix payments, transaction history and account security" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:20px">
+                </a>
+                <figcaption style="font-size:14px;color:#6b7280;text-align:center;margin-top:12px">Illustrative interface preview with sample data. Screens and available features may vary by app version and eligibility. Tap the image to enlarge.</figcaption>
+            </figure>
+            <div class="grid md:grid-cols-3 gap-6 mt-8" style="max-width:1200px;margin-left:auto;margin-right:auto">
+                <div><h3 class="font-heading text-lg font-bold text-gray-900 mb-2">Five currencies, one app</h3><p class="text-gray-600">Access USD, EUR, GBP, BRL and MXN payment corridors. View balances and manage crypto-to-fiat transfers from your phone.</p></div>
+                <div><h3 class="font-heading text-lg font-bold text-gray-900 mb-2">Pix and transaction history</h3><p class="text-gray-600">Find a Pix recipient by their key, review payment details and follow your incoming and outgoing transactions.</p></div>
+                <div><h3 class="font-heading text-lg font-bold text-gray-900 mb-2">Control your account access</h3><p class="text-gray-600">Sign in with Apple, Google or a passkey. Review active sessions and sign out devices you no longer use.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[90vh] flex items-center pt-10 pb-20 overflow-hidden bg-white">
+        <!-- Background Decor -->
+        <div
+            class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
+        </div>
+        <div
+            class="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-blue-50/50 rounded-full blur-3xl opacity-60">
+        </div>
+        <div
+            class="absolute bottom-0 left-0 -ml-20 -mb-20 w-[500px] h-[500px] bg-purple-50/50 rounded-full blur-3xl opacity-60">
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Text Content -->
+                <div class="text-center lg:text-left pt-10 lg:pt-0">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-xs font-bold text-blue-600 mb-8 animate-fade-in-up">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                        </span>
+                        Crypto and fiat payment rails in one account
+                    </div>
+
+                    <h1
+                        class="font-heading text-5xl sm:text-6xl md:text-7xl font-bold leading-[1.1] mb-6 tracking-tight text-gray-900">
+                        Crypto and Fiat <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Payments, Connected.</span>
+                    </h1>
+
+                    <p
+                        class="text-lg md:text-xl text-gray-500 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
+                        Connect crypto with bank payment rails including PIX, SEPA, ACH, SPEI and international wire transfers. Availability depends on account verification and destination.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
+                        <a href="/get_started/" data-access-open="register" aria-haspopup="dialog" aria-controls="ex-access-dialog"
+                            class="group relative px-8 py-4 bg-black text-white font-bold rounded-xl hover:bg-gray-800 transition-all shadow-xl shadow-blue-900/10 flex items-center justify-center gap-2 overflow-hidden">
+                            <span class="relative z-10 flex items-center gap-2">
+                                Open Account Free
+                                <i data-lucide="arrow-right"
+                                    class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                            </span>
+                        </a>
+                        <a href="#products"
+                            class="px-8 py-4 bg-white text-black border border-gray-200 font-bold rounded-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-2">
+                            Our Products
+                            <i data-lucide="arrow-down" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="flex items-center justify-center lg:justify-start gap-8 border-t border-gray-100 pt-8">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-bold font-heading text-gray-900">6</span>
+                            <span class="text-xs font-medium text-gray-400 uppercase tracking-wide">Payment Rails</span>
+                        </div>
+                        <div class="w-px h-10 bg-gray-100"></div>
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-bold font-heading text-gray-900">1%</span>
+                            <span class="text-xs font-medium text-gray-400 uppercase tracking-wide">Service Fee</span>
+                        </div>
+                        <div class="w-px h-10 bg-gray-100"></div>
+                        <div class="flex items-center gap-2">
+                            <div class="bg-green-50 p-2 rounded-lg">
+                                <i data-lucide="shield-check" class="w-5 h-5 text-green-600"></i>
+                            </div>
+                            <div class="flex flex-col text-left">
+                                <span class="text-sm font-bold text-gray-900">KYC</span>
+                                <span class="text-xs text-gray-400">Required for access</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Content (App UI) -->
+                <div class="relative hidden lg:block perspective-[2000px]">
+                    <!-- App UI Backdrop (Glassmorphism) -->
+                    <div
+                        class="absolute top-1/2 left-1/2 -translate-x-[45%] -translate-y-[48%] w-[420px] h-[640px] bg-white rounded-3xl border border-gray-100 shadow-xl -z-10 overflow-hidden transform rotate-y-[-12deg] rotate-x-[5deg] opacity-90">
+                        <div class="p-6 border-b border-gray-50 flex justify-between items-center">
+                            <span class="font-bold text-sm">Recent Activity</span>
+                            <i data-lucide="more-horizontal" class="w-4 h-4 text-gray-400"></i>
+                        </div>
+                        <div class="p-6 space-y-6">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center">
+                                        <i data-lucide="arrow-down-left" class="w-5 h-5 text-green-600"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm font-bold">Received USDT</div>
+                                        <div class="text-xs text-gray-400">From 0x71...3A</div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-bold text-green-600">+$2,450.00</div>
+                                    <div class="text-xs text-gray-400">Today</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center">
+                                        <i data-lucide="arrow-up-right" class="w-5 h-5 text-red-600"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm font-bold">Bank Withdrawal</div>
+                                        <div class="text-xs text-gray-400">To Chase Bank</div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-bold text-gray-900">-$850.00</div>
+                                    <div class="text-xs text-gray-400">Yesterday</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center">
+                                        <i data-lucide="refresh-cw" class="w-5 h-5 text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm font-bold">Crypto Exchange</div>
+                                        <div class="text-xs text-gray-400">USDT to USD</div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-bold text-blue-600">+$1,120.50</div>
+                                    <div class="text-xs text-gray-400">2h ago</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center">
+                                        <i data-lucide="landmark" class="w-5 h-5 text-green-600"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm font-bold">ACH Deposit</div>
+                                        <div class="text-xs text-gray-400">From Wells Fargo</div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-bold text-green-600">+$3,000.00</div>
+                                    <div class="text-xs text-gray-400">2 days ago</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center">
+                                        <i data-lucide="send-horizontal" class="w-5 h-5 text-orange-600"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm font-bold">PIX Payout</div>
+                                        <div class="text-xs text-gray-400">To Banco Inter</div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-bold text-gray-900">-$420.00</div>
+                                    <div class="text-xs text-gray-400">3 days ago</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center">
+                                        <i data-lucide="arrow-down-left" class="w-5 h-5 text-emerald-600"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm font-bold">SPEI Deposit</div>
+                                        <div class="text-xs text-gray-400">MXN Incoming Transfer</div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-bold text-emerald-600">+MXN 18,450.00</div>
+                                    <div class="text-xs text-gray-400">4 days ago</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-indigo-50 flex items-center justify-center">
+                                        <i data-lucide="repeat" class="w-5 h-5 text-indigo-600"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm font-bold">SEPA Exchange</div>
+                                        <div class="text-xs text-gray-400">USDT to EUR</div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-bold text-indigo-600">+EUR 2,260.00</div>
+                                    <div class="text-xs text-gray-400">5 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-white border-y border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl font-heading font-bold text-blue-600 mb-2">5</div>
+                    <div class="text-sm text-gray-500 font-medium">Payment Rails</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-heading font-bold text-purple-600 mb-2">4</div>
+                    <div class="text-sm text-gray-500 font-medium">Local Currencies</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-heading font-bold text-green-600 mb-2">24/7</div>
+                    <div class="text-sm text-gray-500 font-medium">Platform Access</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-heading font-bold text-orange-600 mb-2">KYC</div>
+                    <div class="text-sm text-gray-500 font-medium">Account Verification</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <div class="inline-block px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-bold mb-4">
+                    Our Products
+                </div>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">
+                    Local corridors. Bridge converts.
+                </h2>
+                <p class="text-lg text-gray-500 leading-relaxed font-light">
+                    3-102-151245 S.R.L. (EX.financial) provides this screen. Bridge converts between a local rail — PIX, SEPA, Faster Payments, SPEI or ACH — and stablecoins, where Bridge can serve the customer.
+                    EX.financial does not hold the assets. A new customer without a personal rate pays a
+                    <strong class="font-medium text-gray-900">1% conversion total</strong>:
+                    0.9% EX.financial plus 0.1% Bridge. An agreed personal rate stays as agreed.
+                    Bridge supplies the rate. Network costs and a SWIFT intermediary fee can still apply.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+                <!-- PIX -->
+                <div class="bg-white p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div class="flex items-start justify-between gap-4 mb-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-2xl">🇧🇷</div>
+                            <div>
+                                <h3 class="text-xl font-heading font-bold">PIX — Brazil</h3>
+                                <div class="text-sm text-gray-400 font-medium">BRL ↔ Crypto</div>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-emerald-50 text-emerald-600 rounded-full text-xs font-bold whitespace-nowrap mt-1">Instant · 24/7</span>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed mb-6">
+                        Brazil's instant payment rail. Where Bridge can serve the customer, Bridge converts a PIX payment and holds the funds. EX.financial does not hold the assets.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Permanent personal QR code (copia e cola) — every deposit converts automatically</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Cash out to any PIX key: CPF, phone, email or chave aleatória</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">PIX Pay: pay any PIX QR code or key straight from your USDC balance</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">EX.financial adds no separate PIX transfer fee. Timing follows PIX and Bridge.</span>
+                        </li>
+                    </ul>
+                    <a href="/crypto-to-pix" class="mt-auto inline-flex items-center gap-2 font-bold text-blue-600 hover:text-blue-700 transition">
+                        Learn More <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- SEPA -->
+                <div class="bg-white p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div class="flex items-start justify-between gap-4 mb-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-indigo-50 rounded-2xl flex items-center justify-center text-2xl">🇪🇺</div>
+                            <div>
+                                <h3 class="text-xl font-heading font-bold">SEPA — Europe</h3>
+                                <div class="text-sm text-gray-400 font-medium">EUR ↔ Crypto</div>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-xs font-bold whitespace-nowrap mt-1">36 Countries</span>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed mb-6">
+                        Where Bridge can serve the customer, Bridge converts between euros and stablecoins on SEPA. EX.financial does not hold the funds or the account.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Payouts to any European IBAN across 36 countries</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">No extra EX.financial SEPA transfer fee. A new customer's conversion total is 1%.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Funds arrive within 1–2 business days</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Stablecoins on the corridors Bridge offers. EX.financial does not hold the assets.</span>
+                        </li>
+                    </ul>
+                    <a href="/crypto-to-sepa" class="mt-auto inline-flex items-center gap-2 font-bold text-blue-600 hover:text-blue-700 transition">
+                        Learn More <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- Faster Payments -->
+                <div class="bg-white p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div class="flex items-start justify-between gap-4 mb-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-sky-50 rounded-2xl flex items-center justify-center text-2xl">🇬🇧</div>
+                            <div>
+                                <h3 class="text-xl font-heading font-bold">Faster Payments — England</h3>
+                                <div class="text-sm text-gray-400 font-medium">GBP ↔ Crypto</div>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-sky-50 text-sky-700 rounded-full text-xs font-bold whitespace-nowrap mt-1">UK accounts</span>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed mb-6">
+                        Where Bridge can serve the customer, Bridge converts between pounds and stablecoins on Faster Payments. EX.financial does not hold the account or the funds.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Receive GBP with a UK account number and sort code</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Send USDC and receive pounds in a UK bank account</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">No extra EX.financial Faster Payments fee. A new customer's conversion total is 1%.</span>
+                        </li>
+                    </ul>
+                    <a href="/crypto-to-gbp" class="mt-auto inline-flex items-center gap-2 font-bold text-blue-600 hover:text-blue-700 transition">
+                        Learn More <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- SPEI -->
+                <div class="bg-white p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div class="flex items-start justify-between gap-4 mb-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-2xl">🇲🇽</div>
+                            <div>
+                                <h3 class="text-xl font-heading font-bold">SPEI — Mexico</h3>
+                                <div class="text-sm text-gray-400 font-medium">MXN ↔ Crypto</div>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-orange-50 text-orange-600 rounded-full text-xs font-bold whitespace-nowrap mt-1">Seconds · 24/7</span>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed mb-6">
+                        Where Bridge can serve the customer, Bridge can show SPEI details and convert pesos. EX.financial does not hold the CLABE or the funds.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">A CLABE, when shown, is provided through Bridge. EX.financial does not hold it.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">SPEI deposits settle in seconds, 24/7/365</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Cash out to any Mexican bank account, typically same day</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">$0 MXN transfer fees in and out</span>
+                        </li>
+                    </ul>
+                    <a href="/crypto-to-spei" class="mt-auto inline-flex items-center gap-2 font-bold text-blue-600 hover:text-blue-700 transition">
+                        Learn More <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- ACH -->
+                <div class="bg-white p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div class="flex items-start justify-between gap-4 mb-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-2xl">🇺🇸</div>
+                            <div>
+                                <h3 class="text-xl font-heading font-bold">ACH — United States</h3>
+                                <div class="text-sm text-gray-400 font-medium">USD → Crypto</div>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-bold whitespace-nowrap mt-1">Up to $25,000</span>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed mb-6">
+                        Where Bridge can serve the customer, Bridge converts an ACH payment. EX.financial does not hold the bank account or the funds.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Bridge converts USD where that corridor is available. EX.financial does not hold the account.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Up to $25,000 per transaction for verified accounts</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Standard transfers in 1–3 business days; Same Day ACH available</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Only where Bridge can serve the customer. EX.financial does not decide eligibility.</span>
+                        </li>
+                    </ul>
+                    <a href="/ach-to-crypto" class="mt-auto inline-flex items-center gap-2 font-bold text-blue-600 hover:text-blue-700 transition">
+                        Learn More <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- SWIFT Wire -->
+                <div class="bg-white p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+                    <div class="flex items-start justify-between gap-4 mb-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-purple-50 rounded-2xl flex items-center justify-center">
+                                <i data-lucide="globe-2" class="w-6 h-6 text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-heading font-bold">SWIFT Wire — Global</h3>
+                                <div class="text-sm text-gray-400 font-medium">Crypto → Any Bank Worldwide</div>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-purple-50 text-purple-600 rounded-full text-xs font-bold whitespace-nowrap mt-1">Up to $250,000</span>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed mb-6">
+                        Where Bridge can send a wire, Bridge converts and pays the beneficiary bank. EX.financial does not hold the funds and does not promise every bank or currency.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">A wire only where Bridge can send it. EX.financial does not operate the bank.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">USD, EUR, CHF, JPY and more supported currencies</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">Up to $250,000 per transaction, delivered in 1–3 business days</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5"><i data-lucide="check" class="w-3 h-3 text-green-600"></i></div>
+                            <span class="text-gray-600">A new customer pays a 1% conversion total (0.9% EX.financial plus 0.1% Bridge). An intermediary bank can still charge its own fee.</span>
+                        </li>
+                    </ul>
+                    <a href="/crypto-to-wire" class="mt-auto inline-flex items-center gap-2 font-bold text-blue-600 hover:text-blue-700 transition">
+                        Learn More <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Benefits Section -->
+    <section class="py-20 bg-gray-50 border-y border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="inline-block px-4 py-2 bg-black text-white rounded-full text-sm font-bold mb-4">
+                    Key Benefits
+                </div>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Four things you can count on</h2>
+                <p class="text-xl text-gray-500">Every corridor, every transfer — the same rules.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="percent" class="w-10 h-10 text-blue-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-2">1% for new customers</h3>
+                    <p class="text-sm text-gray-500">0.9% EX.financial plus 0.1% Bridge. A personal rate stays as agreed. Bridge supplies the rate.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="zap" class="w-10 h-10 text-yellow-500 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-2">Speed</h3>
+                    <p class="text-sm text-gray-500">Timing follows the rail and Bridge. EX.financial does not promise an instant conversion.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="eye" class="w-10 h-10 text-purple-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-2">Visibility</h3>
+                    <p class="text-sm text-gray-500">Real-time status for every transfer, instant receipts, and
+                        one-click history export.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="shield-check" class="w-10 h-10 text-green-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-2">Security</h3>
+                    <p class="text-sm text-gray-500">Identity verification, two-factor authentication and encrypted connections help protect
+                        account access and transfers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By / Partners Strip -->
+    <section class="py-10 bg-white border-y border-gray-100">
+        <div class="container mx-auto px-6">
+            <p class="text-center text-xs font-bold text-gray-400 uppercase tracking-[0.2em] mb-8">Trusted Partners &
+                Networks</p>
+            <div
+                class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-50 hover:opacity-100 transition-all duration-500 grayscale hover:grayscale-0">
+                <!-- Bitcoin -->
+                <div class="flex items-center gap-2 font-bold text-xl text-gray-800">
+                    <span
+                        class="w-8 h-8 rounded-full bg-[#F7931A] text-white flex items-center justify-center font-serif italic">₿</span>
+                    Bitcoin
+                </div>
+                <!-- Ethereum -->
+                <div class="flex items-center gap-2 font-bold text-xl text-gray-800">
+                    <span class="text-[#627EEA] text-2xl">♦</span>
+                    Ethereum
+                </div>
+                <!-- Tether -->
+                <div class="flex items-center gap-2 font-bold text-xl text-gray-800">
+                    <div
+                        class="w-8 h-8 bg-[#26A17B] rounded-full flex items-center justify-center text-white text-xs font-bold">
+                        T</div>
+                    Tether
+                </div>
+                <!-- Bank -->
+                <div class="flex items-center gap-2 font-bold text-xl text-gray-800">
+                    <i data-lucide="landmark" class="w-6 h-6"></i> SWIFT
+                </div>
+                <!-- SEPA -->
+                <div class="flex items-center gap-2 font-bold text-xl text-gray-800">
+                    <i data-lucide="euro" class="w-6 h-6"></i> SEPA
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem/Solution Section -->
+    <section id="solution" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">The Problem with Traditional Finance
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start group">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center mt-1 group-hover:bg-red-100 transition-colors">
+                                <i data-lucide="clock" class="w-6 h-6 text-red-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-heading font-bold mb-2">Slow Transfers</h3>
+                                <p class="text-gray-500 leading-relaxed">International wires take 3-5 business days to
+                                    settle. Your money shouldn't sleep on weekends.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start group">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center mt-1 group-hover:bg-red-100 transition-colors">
+                                <i data-lucide="dollar-sign" class="w-6 h-6 text-red-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-heading font-bold mb-2">Hidden Fees</h3>
+                                <p class="text-gray-500 leading-relaxed">Banks charge up to 5% in spread and fees. You
+                                    lose money every time you move it.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start group">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center mt-1 group-hover:bg-red-100 transition-colors">
+                                <i data-lucide="lock" class="w-6 h-6 text-red-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-heading font-bold mb-2">Restricted Access</h3>
+                                <p class="text-gray-500 leading-relaxed">Arbitrary freezes and limits on your own
+                                    capital. It's your money, but you don't control it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl transform rotate-3 opacity-10 blur-xl">
+                    </div>
+                    <div class="bg-white border border-gray-100 rounded-3xl p-8 relative shadow-2xl">
+                        <h3 class="text-2xl font-heading font-bold mb-6 gradient-text">The EX.FINANCIAL Solution</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-3">
+                                <div
+                                    class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="check" class="w-3 h-3 text-green-600"></i>
+                                </div>
+                                <span class="text-lg text-gray-700 font-medium">Bridge processes the conversion. Timing depends on the rail.</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div
+                                    class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="check" class="w-3 h-3 text-green-600"></i>
+                                </div>
+                                <span class="text-lg text-gray-700 font-medium">New customers: 1% total, shown as 0.9% EX.financial plus 0.1% Bridge</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div
+                                    class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="check" class="w-3 h-3 text-green-600"></i>
+                                </div>
+                                <span class="text-lg text-gray-700 font-medium">Bridge holds the assets. EX.financial does not.</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div
+                                    class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="check" class="w-3 h-3 text-green-600"></i>
+                                </div>
+                                <span class="text-lg text-gray-700 font-medium">Seamless Crypto ↔ Fiat Bridge</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Who is EX.FINANCIAL For?</h2>
+                <p class="text-xl text-gray-500">Designed for the modern economy.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                    <div
+                        class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="briefcase" class="w-7 h-7 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-heading font-bold mb-3">Freelancers & Contractors</h3>
+                    <p class="text-gray-500 leading-relaxed">Move a payment where Bridge can serve the customer. EX.financial does not promise every country or an instant payment.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                    <div
+                        class="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="globe" class="w-7 h-7 text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-heading font-bold mb-3">Global Businesses</h3>
+                    <p class="text-gray-500 leading-relaxed">Pay suppliers and employees globally without the headache
+                        of banking rails and delays.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                    <div
+                        class="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="coins" class="w-7 h-7 text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-heading font-bold mb-3">Crypto Natives</h3>
+                    <p class="text-gray-500 leading-relaxed">Move funds between a Bridge wallet and a local bank rail
+                        where that corridor is available to the customer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Demo Section -->
+    <section id="video-demo" class="py-20 bg-black text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-900/40 to-purple-900/40 z-0"></div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Registration Tutorial</h2>
+                <p class="text-xl text-gray-300">Watch our step-by-step guide to creating your account.</p>
+            </div>
+            <div class="bg-gray-800 rounded-3xl shadow-2xl overflow-hidden border border-gray-700 relative"
+                style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+                <iframe width="100%" height="100%"
+                    src="https://www.youtube.com/embed/_M6z66iBElE?autoplay=1&mute=1&loop=1&playlist=_M6z66iBElE"
+                    title="Registration Tutorial" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Steps Section -->
+    <section id="demo" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Try The Demo Yourself</h2>
+                <p class="text-xl text-gray-500">Experience the platform with zero risk. Here is how:</p>
+            </div>
+            <div class="relative">
+                <!-- Connecting Line -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-100 -translate-y-1/2 z-0">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+                    <div
+                        class="bg-white p-8 rounded-3xl border border-gray-100 text-center shadow-sm hover:shadow-lg transition-all">
+                        <div
+                            class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6 shadow-lg shadow-gray-200">
+                            1</div>
+                        <h3 class="text-lg font-heading font-bold mb-2">Login as Demo User</h3>
+                        <p class="text-sm text-gray-500">Access the platform instantly without registration. We've
+                            pre-loaded a demo environment for you.</p>
+                    </div>
+                    <div
+                        class="bg-white p-8 rounded-3xl border border-gray-100 text-center shadow-sm hover:shadow-lg transition-all">
+                        <div
+                            class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6 shadow-lg shadow-gray-200">
+                            2</div>
+                        <h3 class="text-lg font-heading font-bold mb-2">Create a Wallet</h3>
+                        <p class="text-sm text-gray-500">Where the corridor allows it, Bridge provides the wallet. EX.financial does not hold that wallet.</p>
+                    </div>
+                    <div
+                        class="bg-white p-8 rounded-3xl border border-gray-100 text-center shadow-sm hover:shadow-lg transition-all">
+                        <div
+                            class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6 shadow-lg shadow-gray-200">
+                            3</div>
+                        <h3 class="text-lg font-heading font-bold mb-2">Simulate Transfers</h3>
+                        <p class="text-sm text-gray-500">Use the "Send Money" feature to simulate global transfers and
+                            see the speed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <a href="/newapp"
+                    class="px-8 py-4 text-lg font-semibold text-white bg-black rounded-xl hover:bg-gray-800 transition shadow-xl shadow-gray-200 inline-flex items-center gap-2">
+                    Start Demo Now
+                    <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section (Updated) -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Everything You Need</h2>
+                <p class="text-xl text-gray-500">A complete financial operating system.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="shield-check"
+                        class="w-10 h-10 text-blue-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">Account Security</h3>
+                    <p class="text-sm text-gray-500">Encryption and two-factor authentication help protect account access.</p>
+                </div>
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="smartphone"
+                        class="w-10 h-10 text-purple-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">Mobile Ready</h3>
+                    <p class="text-sm text-gray-500">Manage your finances on the go with our responsive design.</p>
+                </div>
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="credit-card"
+                        class="w-10 h-10 text-green-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">No EX.financial card</h3>
+                    <p class="text-sm text-gray-500">EX.financial does not issue cards and does not hold customer funds.</p>
+                </div>
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="refresh-cw"
+                        class="w-10 h-10 text-orange-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">Auto-Conversion</h3>
+                    <p class="text-sm text-gray-500">Automatically convert incoming crypto to fiat to avoid volatility.
+                    </p>
+                </div>
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="users"
+                        class="w-10 h-10 text-indigo-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">Multi-User Access</h3>
+                    <p class="text-sm text-gray-500">Team permissions for business accounts.</p>
+                </div>
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="file-text"
+                        class="w-10 h-10 text-teal-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">Tax Reporting</h3>
+                    <p class="text-sm text-gray-500">One-click export for transaction history and tax compliance.</p>
+                </div>
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="zap"
+                        class="w-10 h-10 text-yellow-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">Bridge converts</h3>
+                    <p class="text-sm text-gray-500">EX.financial does not run its own exchange, custody or Lightning service.</p>
+                </div>
+                <div
+                    class="p-8 rounded-3xl bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <i data-lucide="headphones"
+                        class="w-10 h-10 text-pink-600 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-heading font-bold text-lg mb-2">24/7 Support</h3>
+                    <p class="text-sm text-gray-500">Real human support whenever you need it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Why Choose EX.FINANCIAL?</h2>
+                <p class="text-xl text-gray-500">Stop settling for less.</p>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table
+                    class="w-full text-left border-collapse bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
+                    <thead>
+                        <tr>
+                            <th class="p-6 border-b border-gray-100 w-1/3"></th>
+                            <th class="p-6 border-b border-blue-600 w-1/3 bg-blue-50 text-center">
+                                <span class="text-xl font-heading font-bold text-blue-600">EX.FINANCIAL</span>
+                            </th>
+                            <th class="p-6 border-b border-gray-100 w-1/3 text-center">
+                                <span class="text-xl font-heading font-bold text-gray-400">Traditional Banks</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-600">
+                        <tr>
+                            <td class="p-6 border-b border-gray-100 font-semibold">Transfer Speed</td>
+                            <td class="p-6 border-b border-gray-100 bg-blue-50 text-center font-bold text-green-600">
+                                Depends on the rail</td>
+                            <td class="p-6 border-b border-gray-100 text-center text-red-500">3-5 Business Days</td>
+                        </tr>
+                        <tr>
+                            <td class="p-6 border-b border-gray-100 font-semibold">Fees</td>
+                            <td class="p-6 border-b border-gray-100 bg-blue-50 text-center font-bold text-green-600">
+                                Low, Transparent</td>
+                            <td class="p-6 border-b border-gray-100 text-center text-red-500">High, Hidden Spreads</td>
+                        </tr>
+                        <tr>
+                            <td class="p-6 border-b border-gray-100 font-semibold">Availability</td>
+                            <td class="p-6 border-b border-gray-100 bg-blue-50 text-center font-bold text-green-600">
+                                24/7/365</td>
+                            <td class="p-6 border-b border-gray-100 text-center text-red-500">Banking Hours Only</td>
+                        </tr>
+                        <tr>
+                            <td class="p-6 border-b border-gray-100 font-semibold">Global Reach</td>
+                            <td class="p-6 border-b border-gray-100 bg-blue-50 text-center font-bold text-green-600">
+                                Where Bridge can serve you</td>
+                            <td class="p-6 border-b border-gray-100 text-center text-red-500">Limited / Expensive</td>
+                        </tr>
+                        <tr>
+                            <td class="p-6 font-semibold">Asset Control</td>
+                            <td class="p-6 bg-blue-50 text-center font-bold text-green-600">Bridge holds the assets</td>
+                            <td class="p-6 text-center text-red-500">Bank Custody</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="inline-block px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full text-sm font-medium mb-4">
+                    Testimonials
+                </div>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">
+                    Customer experiences
+                </h2>
+                <!-- TrustBox widget -->
+                <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc"
+                    data-businessunit-id="671295ed405f793b77338995" data-style-height="52px" data-style-width="100%"
+                    data-token="003125be-2249-43f6-9116-e2084266c5b7">
+                </div>
+            </div>
+
+            <div id="testimonials-scroll" class="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory scrollbar-hide">
+                <!-- Reviews (Content preserved, style updated) -->
+                <!-- Review 1 -->
+                <div
+                    class="flex-none w-[85vw] md:w-[45vw] lg:w-[30vw] snap-center bg-white rounded-3xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+                    <div class="flex gap-1 mb-4">
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg mb-2">Unexpectedly quickly</h3>
+                    <p class="text-gray-500 mb-6 flex-grow leading-relaxed">
+                        "Honestly, I didn't think they would work so quickly. I transferred $2,000, and 25 minutes later
+                        the money was already in my bank account. The exchange rate was correct, and they sent the
+                        receipt right away. Respect for their efficiency."
+                    </p>
+                    <div class="flex items-center gap-3 mt-auto">
+                        <div
+                            class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold">
+                            AC</div>
+                        <div>
+                            <div class="font-bold">Ashley Carter</div>
+                            <div class="text-sm text-gray-400">US</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div
+                    class="flex-none w-[85vw] md:w-[45vw] lg:w-[30vw] snap-center bg-white rounded-3xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+                    <div class="flex gap-1 mb-4">
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg mb-2">I don't like dealing with exchanges…</h3>
+                    <p class="text-gray-500 mb-6 flex-grow leading-relaxed">
+                        "Here, I just wrote on Telegram that I wanted to make an exchange, and that was it. The transfer
+                        comes to my card, everything is clear."
+                    </p>
+                    <div class="flex items-center gap-3 mt-auto">
+                        <div
+                            class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-bold">
+                            BM</div>
+                        <div>
+                            <div class="font-bold">Bredi Matson</div>
+                            <div class="text-sm text-gray-400">US</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div
+                    class="flex-none w-[85vw] md:w-[45vw] lg:w-[30vw] snap-center bg-white rounded-3xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+                    <div class="flex gap-1 mb-4">
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg mb-2">I liked the human support</h3>
+                    <p class="text-gray-500 mb-6 flex-grow leading-relaxed">
+                        "Seriously, it's rare to find such calm conversations. No 'delays due to technical reasons' or
+                        anything like that. Once, they even suggested a cheaper way to make a transfer using a different
+                        token. That was nice."
+                    </p>
+                    <div class="flex items-center gap-3 mt-auto">
+                        <div
+                            class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold">
+                            A</div>
+                        <div>
+                            <div class="font-bold">Arend</div>
+                            <div class="text-sm text-gray-400">GB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-gray-50 rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none"
+                        data-faq-toggle>
+                        <span class="font-semibold text-gray-900">Is EX.FINANCIAL a bank?</span>
+                        <i data-lucide="chevron-down"
+                            class="w-5 h-5 text-gray-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-500 border-t border-gray-200 pt-4">
+                        No. 3-102-151245 S.R.L. (EX.FINANCIAL) is a technology company. Bridge provides the regulated conversion,
+                        wallets and payment rails. EX.financial does not hold the assets.
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none"
+                        data-faq-toggle>
+                        <span class="font-semibold text-gray-900">What are your fees?</span>
+                        <i data-lucide="chevron-down"
+                            class="w-5 h-5 text-gray-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-500 border-t border-gray-200 pt-4">
+                        A new customer without a personal rate pays a 1% conversion total: a 0.9% EX.financial
+                        developer fee plus a 0.1% Bridge fee. A customer with an agreed rate keeps that rate.
+                        Bridge supplies the rate. Network costs can apply. An international SWIFT wire can include
+                        an intermediary-bank fee. The in-app Fee Calculator shows the rate on that account before you send.
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none"
+                        data-faq-toggle>
+                        <span class="font-semibold text-gray-900">How do I get started?</span>
+                        <i data-lucide="chevron-down"
+                            class="w-5 h-5 text-gray-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-500 border-t border-gray-200 pt-4">
+                        Create an account, then complete Bridge verification before a payment can be sent.
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none"
+                        data-faq-toggle>
+                        <span class="font-semibold text-gray-900">What countries are supported?</span>
+                        <i data-lucide="chevron-down"
+                            class="w-5 h-5 text-gray-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-500 border-t border-gray-200 pt-4">
+                        Availability depends on Bridge. The account can use USD, EUR, BRL and MXN rails
+                        where Bridge can serve that customer. EX.financial does not decide eligibility.
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none"
+                        data-faq-toggle>
+                        <span class="font-semibold text-gray-900">Are my funds insured?</span>
+                        <i data-lucide="chevron-down"
+                            class="w-5 h-5 text-gray-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-500 border-t border-gray-200 pt-4">
+                        EX.financial does not hold customer funds and does not insure them. Bridge, 1Money, Noah and Attrus hold or move funds under their own terms. A balance with EX.financial is not an FDIC or government-insured bank deposit. A US dollar deposit that sits at a partner's sponsor bank can have pass-through FDIC coverage only while it remains a dollar deposit there. Stablecoins and funds in transit are not FDIC insured.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-black text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-3xl md:text-5xl font-heading font-bold mb-6">
+                Ready to get started?
+            </h2>
+            <p class="text-xl mb-10 text-gray-400 max-w-2xl mx-auto">
+                Open an account to explore EX.FINANCIAL payment services
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/get_started/" data-access-open="register" aria-haspopup="dialog" aria-controls="ex-access-dialog"
+                    class="px-10 py-5 bg-white text-black font-bold rounded-xl hover:bg-gray-100 transition-colors shadow-xl">
+                    Create Free Account
+                </a>
+                
+                <a href="https://wa.me/19179206309" target="_blank"
+                    class="px-10 py-5 border border-white/20 text-white font-bold rounded-xl hover:bg-white/10 transition-colors">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 lg:gap-12 mb-12">
+                <div class="col-span-2 md:col-span-4 lg:col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div
+                            class="w-8 h-8 bg-black text-white flex items-center justify-center font-heading font-bold text-xl rounded-lg">
+                            E</div>
+                        <span class="font-heading text-xl font-bold tracking-tight">EX.FINANCIAL</span>
+                    </div>
+                    <p class="text-gray-500 max-w-sm mb-3">
+                        3-102-151245 S.R.L. (EX.financial) provides this screen. Bridge converts and holds the funds. A new customer
+                        without a personal rate pays a 1% conversion total.
+                    </p>
+                    <p class="text-gray-400 text-xs mb-6">
+                        3-102-151245 S.R.L. (EX.FINANCIAL) · Cédula Jurídica 3-102-151245 · San José, Costa Rica<br>Tel / WhatsApp: <a href="tel:+19179206309" class="hover:text-black underline">+1 (917) 920-6309</a> · <a href="mailto:ceo@off-ramp.app" class="hover:text-black underline">ceo@off-ramp.app</a>
+                    </p>
+                    <div class="flex gap-3">
+                        <a href="https://t.me/ex_financial_bot" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-gray-400">
+                            <i data-lucide="send" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ex.financial/" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-pink-600 hover:text-white transition-all text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5a4.25 4.25 0 0 0-4.25-4.25h-8.5Zm9.13 1.75a1.12 1.12 0 1 1 0 2.24 1.12 1.12 0 0 1 0-2.24ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"/></svg>
+                        </a>
+                        <a href="https://x.com/ex_financialbr" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-blue-400 hover:text-white transition-all text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-6.42L6.43 22H3.3l7.24-8.27L.8 2h6.4l4.42 5.84L18.9 2Zm-1.1 18h1.74L6.26 3.9H4.4L17.8 20Z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/exfinancial" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-blue-700 hover:text-white transition-all text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb5nh3NK0IBpcIATr62G" target="_blank"
+                            rel="noopener noreferrer"
+                            class="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center hover:bg-green-500 hover:text-white transition-all text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-5">Products</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="/crypto-to-pix" class="hover:text-black transition">PIX — Brazil (BRL)</a></li>
+                        <li><a href="/crypto-to-sepa" class="hover:text-black transition">SEPA — Europe (EUR)</a></li>
+                        <li><a href="/crypto-to-gbp" class="hover:text-black transition">Faster Payments — England (GBP)</a></li>
+                        <li><a href="/crypto-to-spei" class="hover:text-black transition">SPEI — Mexico (MXN)</a></li>
+                        <li><a href="/ach-to-crypto" class="hover:text-black transition">ACH — USA (USD)</a></li>
+                        <li><a href="/crypto-to-wire" class="hover:text-black transition">SWIFT Wire — Global</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-5">Resources</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="/swift-codes/" class="hover:text-black transition">SWIFT Codes Directory</a></li>
+                        <li><a href="#faq" class="hover:text-black transition">FAQ</a></li>
+                        <li><a href="/downloads/" class="hover:text-black transition">Mobile App</a></li>
+                        <li><a href="/agentic-payments" class="hover:text-black transition">Agentic Payments</a></li>
+                        <li><a href="/newapp" class="hover:text-black transition">Try the Demo</a></li>
+                        
+                        <li><a href="/support.html" class="hover:text-black transition">Contact support</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-5">Company</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="/about_us.html" class="hover:text-black transition">About Us</a></li>
+                        <li><a href="/blog" class="hover:text-black transition">Blog</a></li>
+                        <li><a href="/press" class="hover:text-black transition">Press</a></li>
+                        <li><a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-bold text-sm uppercase tracking-wider mb-5">Legal</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="/Privacy_Policy.html" class="hover:text-black transition">Privacy Policy</a></li>
+                        <li><a href="/Terms" class="hover:text-black transition">Terms of Service</a></li>
+                        <li><a href="/cookie-policy" class="hover:text-black transition">Cookie Policy</a></li>
+                        <li><a href="/aml" class="hover:text-black transition">AML &amp; Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="border-t border-gray-100 pt-8 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-400">
+                <p>&copy; 2026 3-102-151245 S.R.L. (EX.FINANCIAL). All rights reserved.</p>
+                <p class="inline-flex items-center gap-2">
+                    <i data-lucide="shield-check" class="w-4 h-4 text-green-600"></i>
+                    Identity verification required &middot; Encrypted connections
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // FAQ Toggle Function
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+
+            content.classList.toggle('hidden');
+            if (content.classList.contains('hidden')) {
+                icon.style.transform = 'rotate(0deg)';
+            } else {
+                icon.style.transform = 'rotate(180deg)';
+            }
+        }
+        document.querySelectorAll('[data-faq-toggle]').forEach(button => {
+            button.addEventListener('click', () => toggleFaq(button));
+        });
+
+        // Auto-scroll testimonials
+        const testimonialsContainer = document.getElementById('testimonials-scroll');
+        if (testimonialsContainer) {
+            setInterval(() => {
+                const scrollAmount = testimonialsContainer.clientWidth;
+                const maxScroll = testimonialsContainer.scrollWidth - testimonialsContainer.clientWidth;
+
+                if (testimonialsContainer.scrollLeft >= maxScroll - 10) { // tolerance
+                    testimonialsContainer.scrollTo({ left: 0, behavior: 'smooth' });
+                } else {
+                    testimonialsContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                }
+            }, 20000); // 20 seconds
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <dialog id="ex-access-dialog" class="ex-access-dialog" aria-labelledby="ex-access-title" aria-describedby="ex-access-description">
+      <div class="ex-access-content">
+        <button type="button" class="ex-access-close" data-access-close aria-label="Close">×</button>
+        <p class="ex-access-eyebrow">EX.financial</p>
+        <h2 id="ex-access-title" tabindex="-1">Get started with EX.financial</h2>
+        <p id="ex-access-description">Register or sign in through the app. Prefer personal help? Email us or contact support.</p>
+        <section class="ex-access-option" aria-labelledby="ex-access-app-heading">
+          <h3 id="ex-access-app-heading">Use the app</h3>
+          <p>Download EX.financial to register, sign in and manage your account details and wallets.</p>
+          <div class="ex-access-actions">
+            <a class="ex-access-primary" href="/api/ios_app_download.php" target="_blank" rel="noopener noreferrer">App Store · iPhone</a>
+            <a class="ex-access-primary" href="https://play.google.com/store/apps/details?id=ai.ibro.exfinancial" target="_blank" rel="noopener noreferrer">Google Play · Android</a>
+          </div>
+        </section>
+        <section class="ex-access-option" aria-labelledby="ex-access-email-heading">
+          <h3 id="ex-access-email-heading">Let us help by email</h3>
+          <p>Write to <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a> to request registration, create account details or link your wallet address. For an address request, include the currency or token, network and address. Our team will guide you through the required steps.</p>
+          <div class="ex-access-actions">
+            <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a>
+            <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a>
+          </div>
+        </section>
+        <section class="ex-access-option" aria-labelledby="ex-access-chat-heading">
+          <h3 id="ex-access-chat-heading">Chat with support</h3>
+          <p>Ask our team for help with registration, account details or linking an address.</p>
+          <a class="ex-access-secondary" href="https://t.me/ex_financial_bot" target="_blank" rel="noopener noreferrer">Open support chat · Telegram</a>
+        </section>
+      </div>
+    </dialog>
+    <script src="/cookie-consent.js?v=20261031-attr-none"></script>
+</body>
+
+</html>

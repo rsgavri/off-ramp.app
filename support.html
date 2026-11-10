@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — EX.financial</title>
+  <meta name="description" content="Contact EX.financial support for help with your account, verification, payments or the mobile app. Send a support request or open your secure support chat.">
+  <link rel="canonical" href="https://ex.financial/support">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/support-page-v1.css">
+  <script src="/support-page-v1.js?v=20260926" defer></script>
+  <style>#send-code{width:100%;margin:8px 0 22px}</style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header"><a class="brand" href="/" aria-label="EX.financial home"><b>EX</b><span>.financial</span></a><a class="nav-link" href="/newapp/support">Open secure chat <span aria-hidden="true">↗</span></a></header>
+  <main id="main">
+    <div class="intro"><p class="eyebrow">EX.financial Support</p><h1>How can we help?</h1><p>Questions about your account, a payment or the app?<br class="desktop"> Send us a message. We’ll help you find the next step.</p></div>
+    <div class="layout">
+      <section class="request-card" aria-labelledby="request-title">
+        <div class="card-head"><h2 id="request-title">Write to support</h2><span class="pill">Form closed</span></div>
+        <p class="muted">The public form is turned off. Open the secure chat or email <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a>.</p>
+        <form id="support-form" action="/api/support_ticket.php" method="post">
+          <div class="two-columns"><div><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" required placeholder="you@example.com"></div><div><label for="name">Your name <span class="optional">Optional</span></label><input id="name" name="name" autocomplete="name" maxlength="120" placeholder="How should we address you?"></div></div>
+          <label for="subject">What do you need help with? <span aria-hidden="true">*</span></label>
+          <select id="subject" name="subject" required><option value="">Select a topic</option><option>Account access</option><option>Identity verification</option><option>Payments and transfers</option><option>Wallet or currency exchange</option><option>Mobile app</option><option>Account deletion</option><option>Something else</option></select>
+          <label for="message">Your message <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="6" minlength="5" maxlength="8000" required aria-describedby="message-help" placeholder="Describe the issue and when it happened. For a payment, include its reference if you have one."></textarea>
+          <p class="field-help" id="message-help">Never include passwords, sign-in codes, private keys, seed phrases or full card details. Send identity documents only through your secure account.</p>
+          <div class="honeypot" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+          <p class="privacy">Your details will be used to handle this request. Read our <a href="/privacy">Privacy Policy</a>.</p>
+          <p id="request-status" class="status" role="status" aria-live="polite" tabindex="-1" hidden></p>
+          <p class="field-help">Email <a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a> or open the secure chat.</p>
+        </form>
+      </section>
+      <aside aria-label="Other ways to get help">
+        <section class="side-card"><div class="symbol" aria-hidden="true">↗</div><h2>Already a customer?</h2><p>Open your secure support chat for questions about your account and existing conversations.</p><a class="secondary" href="/newapp/support">Open support chat <span aria-hidden="true">↗</span></a><p class="small">You’ll be asked to sign in if needed.</p></section>
+        <section class="side-card contact-card"><h2>Other ways to reach us</h2><a class="contact" href="tel:+19179206309"><span class="contact-icon" aria-hidden="true">☎</span><span><strong>Phone / WhatsApp</strong><span>+1 (917) 920-6309</span></span><span aria-hidden="true">↗</span></a><a href="mailto:ceo@off-ramp.app" class="text-blue-600 hover:underline">ceo@off-ramp.app</a><a class="contact" href="https://t.me/ex_financial_bot" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">↗</span><span><strong>Telegram</strong><span>@ex_financial_bot</span></span><span aria-hidden="true">↗</span></a></section>
+        <div class="safety-note"><strong>Keep your account safe</strong><p>Support will never ask you to share a sign-in code or transfer money to “unlock” your account.</p></div>
+      </aside>
+    </div>
+  </main>
+  <footer><span>© 2026 EX.financial</span><nav aria-label="Footer"><a href="/">Home</a><a href="/privacy">Privacy</a></nav><span class="currencies">USD · EUR · GBP · BRL · MXN</span></footer>
+</body>
+</html>
